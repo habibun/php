@@ -1,5 +1,10 @@
 <?php
-//Interface segregation principle
+
+/**
+ * Interface segregation principle
+ *
+ * Clients should not be forced to depend upon interfaces that they do not use
+ */
 abstract class Bird{
 }
 
