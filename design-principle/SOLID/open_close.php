@@ -1,5 +1,10 @@
 <?php
-//Open-Closed Principle
+
+/**
+ * Open–closed principle
+ *
+ * software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification
+ */
 abstract  class Animal {
     public $name;
     public function getAnimalName()
