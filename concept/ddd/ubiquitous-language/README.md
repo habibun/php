@@ -1,0 +1,2 @@
+# Ubiquitous Language
+'Ubiquitous Language' is the language that is used by business experts to describe the Domain Model. It means that the development team uses the language consistently in all communications, and also in the code. This language should be based on the Domain Model

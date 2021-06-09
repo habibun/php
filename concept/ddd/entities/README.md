@@ -1,0 +1,2 @@
+# Entities
+An entity is a set of properties that have a unique identifier. A row of database tables would be a good example. An entity is mutable, because it can change its attributes (usually with setters and getters) and also it has a lifecycle, meaning it can be deleted.
