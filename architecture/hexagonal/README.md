@@ -9,7 +9,7 @@ Ports exist in 2 types. You have the inbound and outbound ports.
 
 An **inbound port** defines the exposure of the core’s functionality. These interfaces define how the Core Business Logic can be used. This is the only part of the core exposed to the outside world.
 
-An **outbound port** define the core’s view of the outside world. This are the interface the core need to communicate with the outside world.
+An **outbound port** define the core’s view of the outside world. These are the interface the core need to communicate with the outside world.
 
 
 ### Adapter
@@ -20,5 +20,5 @@ The primary or Driving Adapters represents the UI. This can be our API controlle
 
 
 **Secondary Adapters:**
-The secondary or Driven Adapters represent the connection to your back-end databases, external libraries, mail API’s, etc. These adapters react to actions iniated by the primary adapters. The secondary adapters are implementations of the outbound port. Which in return depend on interfaces of these external libraries and tools to transform them, so the core application can use these without being coupled to them.
+The secondary or Driven Adapters represent the connection to your back-end databases, external libraries, mail API’s, etc. These adapters react to action initiated by the primary adapters. The secondary adapters are implementations of the outbound port. Which in return depend on interfaces of these external libraries and tools to transform them, so the core application can use these without being coupled to them.
 
