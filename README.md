@@ -1,2 +1,2 @@
 # php
-PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &amp; Concepts :bd:
+PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &amp; Concepts
