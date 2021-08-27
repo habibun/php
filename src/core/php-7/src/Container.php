@@ -62,7 +62,7 @@ class Container {
 
     public function loadServices(string $namespace, ?\Closure $callback = null): void
     {
-        $baseDir = __DIR__ . '/';
+        $baseDir = __DIR__ . 'Container.php/';
         
         $actualDirectory = str_replace('\\', '/', $namespace);
         $actualDirectory = $baseDir . substr(

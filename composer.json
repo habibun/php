@@ -1,0 +1,19 @@
+{
+    "name": "habibun/php",
+    "description": "PHP Core & Architectures & Design Patterns & Principles & Concepts",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Habibun\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Habibun Noby",
+            "email": "habibun.noby@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
