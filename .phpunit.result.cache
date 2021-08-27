@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Tests\\DesignPattern\\DecoratorPattern\\DecoratorTest::testCanCalculatePriceForBasicDoubleRoomBooking":0.002,"Tests\\DesignPattern\\DecoratorPattern\\DecoratorTest::testCanCalculatePriceForDoubleRoomBookingWithWiFi":0,"Tests\\DesignPattern\\DecoratorPattern\\DecoratorTest::testCanCalculatePriceForDoubleRoomBookingWithWiFiAndExtraBed":0}}
