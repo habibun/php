@@ -12,3 +12,7 @@ each running in its own process and communicating with lightweight mechanisms, o
 - Infrastructure Automation
 - Design for failure
 - Evolutionary Design
+
+Links:
+- https://martinfowler.com/articles/microservices.html
+- 
