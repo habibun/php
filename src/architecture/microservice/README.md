@@ -15,4 +15,4 @@ each running in its own process and communicating with lightweight mechanisms, o
 
 Links:
 - https://martinfowler.com/articles/microservices.html
-- 
+- https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices
