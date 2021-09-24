@@ -16,3 +16,6 @@ each running in its own process and communicating with lightweight mechanisms, o
 Links:
 - https://martinfowler.com/articles/microservices.html
 - https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices
+- https://www.ibm.com/cloud/learn/microservices
+- https://developer.ibm.com/tutorials/cl-ibm-cloud-microservices-in-action-part-1-trs/
+
