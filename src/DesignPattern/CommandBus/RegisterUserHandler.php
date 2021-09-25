@@ -1,5 +1,6 @@
 <?php
 
+namespace Php\DesignPattern\CommandBus;
 
 final class RegisterUserHandler
 {

@@ -1,7 +1,11 @@
 <?php
 
+namespace Php\DesignPattern\CommandBus;
+
 final class RegistrationController
 {
+    private CommandBusInterface $bus;
+
     public function __construct(CommandBusInterface $bus)
     {
         $this->bus = $bus;

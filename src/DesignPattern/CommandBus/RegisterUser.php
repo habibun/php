@@ -1,5 +1,5 @@
 <?php
-
+namespace Php\DesignPattern\CommandBus;
 
 class RegisterUser
 {
