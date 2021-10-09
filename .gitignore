@@ -1,8 +1,11 @@
 ###> phpstorm ###
 /.idea
 ###< phpstorm ###
-/vendor/
 
 ###> php-cs-fixer ###
 .php-cs-fixer.cache
 ###< php-cs-fixer ###
+
+###> composer ###
+/vendor
+###< composer ###
