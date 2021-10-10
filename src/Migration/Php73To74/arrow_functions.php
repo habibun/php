@@ -1,4 +1,6 @@
 <?php
+namespace Php\Migration\Php73To74;
+
 /**
  * Concise syntax for anonymous functions
  */

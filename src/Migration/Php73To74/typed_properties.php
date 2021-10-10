@@ -1,4 +1,5 @@
 <?php
+namespace Php\Migration\Php73To74;
 
 class TypedProperties {
     public int $id;
