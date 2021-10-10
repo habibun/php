@@ -1,4 +1,7 @@
 <?php
+
+namespace Php\Migration\Php56To70;
+
 // Fetches the value of $_GET['user'] and returns 'nobody' if it does not exist.
 $username = $_GET['user'] ?? 'nobody';
 
