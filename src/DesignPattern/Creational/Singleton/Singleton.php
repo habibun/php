@@ -1,65 +1,52 @@
 <?php
 
+namespace Php\DesignPattern\Creational\Singleton;
+
 /**
- * Class Singleton
- *
- * Singleton Pattern ensures that a class has only one instance and provides a global point to access it.
- * It ensures that only one object is available all across the application in a controlled state.
- * Singleton pattern provides a way to access its only object which can be accessed directly without the need to instantiate the object of the class.
+ * If you need to support several types of Singletons in your app, you can
+ * define the basic features of the Singleton in a base class, while moving the
+ * actual business logic (like logging) to subclasses.
  */
 class Singleton
 {
     /**
-     * @var string
+     * The actual singleton's instance almost always resides inside a static
+     * field. In this case, the static field is an array, where each subclass of
+     * the Singleton stores its own instance.
      */
-    private static $instance = null;
+    private static $instances = [];
 
     /**
-     * @var string
+     * Singleton's constructor should not be public. However, it can't be
+     * private either if we want to allow subclassing.
      */
-    private $name;
+    protected function __construct() { }
 
     /**
-     * Singleton constructor.
-     * @param string $name
+     * Cloning and unserialization are not permitted for singletons.
      */
-    public function __construct(string $name)
+    protected function __clone() { }
+
+    public function __wakeup()
     {
-        $this->name = $name;
+        throw new \Exception("Cannot unserialize singleton");
     }
 
     /**
-     * @param $name
-     * @return Singleton
+     * The method you use to get the Singleton's instance.
      */
-    public static function getInstance($name): Singleton
+    public static function getInstance()
     {
-        if (!self::$instance) {
-            self::$instance = new static($name);
+        $subclass = static::class;
+        if (!isset(self::$instances[$subclass])) {
+            // Note that here we use the "static" keyword instead of the actual
+            // class name. In this context, the "static" keyword means "the name
+            // of the current class". That detail is important because when the
+            // method is called on the subclass, we want an instance of that
+            // subclass to be created here.
+
+            self::$instances[$subclass] = new static();
         }
-
-        return self::$instance;
+        return self::$instances[$subclass];
     }
-
-    /**
-     * @return string
-     */
-    public function getName(): string
-    {
-        return $this->name;
-    }
-}
-
-$s1 = Singleton::getInstance('instance one');
-$s2 = Singleton::getInstance('instance two');
-if ($s1 === $s2) {
-
-    var_dump($s1->getName());
-    echo '</br>';
-    var_dump($s1->getName());
-    echo '</br>';
-
-    echo "Singleton works, both variables contain the same instance.";
-} else {
-    echo "Singleton failed, variables contain different instances.";
 }
