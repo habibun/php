@@ -1,26 +1,23 @@
 <?php
-// Doc: https://sourcemaking.com/design_patterns/observer/php
 
 namespace Php\DesignPattern\Behavioral\Observer;
 
+/**
+ * The client code.
+ */
+$repository = new UserRepository();
+$repository->attach(new Logger(__DIR__.'/log.txt'), '*');
+$repository->attach(new OnboardingNotification('1@example.com'), 'users:created');
 
+$repository->initialize(__DIR__.'/users.csv');
 
-writeln('BEGIN TESTING OBSERVER PATTERN');
-writeln('');
+// ...
 
-$patternGossiper = new PatternSubject();
-$patternGossipFan = new PatternObserver();
-$patternGossiper->attach($patternGossipFan);
-$patternGossiper->updateFavorites('abstract factory, decorator, visitor');
-$patternGossiper->updateFavorites('abstract factory, observer, decorator');
-$patternGossiper->detach($patternGossipFan);
-$patternGossiper->updateFavorites('abstract factory, observer, paisley');
+$user = $repository->createUser([
+    'name' => 'John Smith',
+    'email' => 'john99@example.com',
+]);
 
-writeln('END TESTING OBSERVER PATTERN');
+// ...
 
-
-function writeln($line_in)
-{
-    echo $line_in . "<br/>";
-}
-
+$repository->deleteUser($user);

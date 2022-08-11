@@ -1,1 +1,1 @@
-[Observer in PHP](https://sourcemaking.com/design_patterns/observer/php)
+[Observer in PHP](https://refactoring.guru/design-patterns/observer/php/example#example-1)
