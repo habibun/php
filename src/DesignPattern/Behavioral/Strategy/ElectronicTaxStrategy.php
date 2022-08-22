@@ -2,8 +2,6 @@
 
 namespace Php\DesignPattern\Behavioral\Strategy;
 
-use TaxCalculatorStrategy;
-
 class ElectronicTaxStrategy implements TaxCalculatorStrategy
 {
     const TAX_RATE = 40.0;
