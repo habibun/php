@@ -3,9 +3,22 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 
 ---
 [API][api]  
+- [Rest][rest]
 
 ---
 [Architecture][architecture]
+- [Cqrs][cqrs]
+- [EventDriven][event-driven]
+- [EventSourcing][event-sourcing]
+- [Hexagonal][hexagonal]
+- [Hmvc][hmvc]
+- [Layered][layered]
+- [Microservice][microservice]
+- [ModelDriven][model-driven]
+- [Multitier][multitier]
+- [Mvc][mvc]
+- [ServiceOriented][service-oriented]
+- [ServiceLayer][service-layer]
 
 ---
 [Concept][concept]
@@ -44,4 +57,17 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 [development-technique]: https://github.com/habibun/php/tree/main/src/DevelopmentTechnique
 [migration]: https://github.com/habibun/php/tree/main/src/Migration
 [paradigm]: https://github.com/habibun/php/tree/main/src/Paradigm
-[api]: https://github.com/habibun/php/tree/main/src/Api  
+[api]: https://github.com/habibun/php/tree/main/src/Api
+[rest]: https://github.com/habibun/php/tree/main/src/Api/Rest
+[cqrs]: https://github.com/habibun/php/tree/main/src/Architecture/Cqrs
+[event-driven]: https://github.com/habibun/php/tree/main/src/Architecture/EventDriven
+[event-sourcing]: https://github.com/habibun/php/tree/main/src/Architecture/EventSourcing
+[hexagonal]: https://github.com/habibun/php/tree/main/src/Architecture/hexagonal
+[hmvc]: https://github.com/habibun/php/tree/main/src/Architecture/hmvc
+[layered]: https://github.com/habibun/php/tree/main/src/Architecture/layered
+[microservice]: https://github.com/habibun/php/tree/main/src/Architecture/microservice
+[model-driven]: https://github.com/habibun/php/tree/main/src/Architecture/model-driven
+[multitier]: https://github.com/habibun/php/tree/main/src/Architecture/multitier
+[mvc]: https://github.com/habibun/php/tree/main/src/Architecture/mvc
+[service-oriented]: https://github.com/habibun/php/tree/main/src/Architecture/service-oriented
+[service-layer]: https://github.com/habibun/php/tree/main/src/Architecture/service-layer
