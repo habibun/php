@@ -84,7 +84,10 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 [mvc]: https://github.com/habibun/php/tree/main/src/Architecture/Mvc
 [service-oriented]: https://github.com/habibun/php/tree/main/src/Architecture/ServiceOriented
 [service-layer]: https://github.com/habibun/php/tree/main/src/Architecture/ServiceLayer
-[ddd]: https://github.com/habibun/php/tree/main/src/Concept/ddd
+
+
+[//]: # (Concept)
+[ddd]: https://github.com/habibun/php/tree/main/src/Concept/Ddd
 
 
 [//]: # (DesignPattern)
