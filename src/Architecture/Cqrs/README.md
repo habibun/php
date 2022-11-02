@@ -20,13 +20,10 @@ Originally, CQRS was called "CQS", too. But it was determined that the two are d
 - [CQRS with Symfony](https://github.com/habibun/cqrs)
 
 
-
 ---  
 **Reference**  
-
+- [CQRS Software Architecture Pattern: The Good, the Bad, and the Ugly](https://betterprogramming.pub/cqrs-software-architecture-pattern-the-good-the-bad-and-the-ugly-e9d6e7a34daf)  
 - [CQRS](https://martinfowler.com/bliki/CQRS.html) by Martin Fowler  
 - [CQRS Software Architecture Pattern: The Good, the Bad, and the Ugly - Jawad Margieh](https://betterprogramming.pub/cqrs-software-architecture-pattern-the-good-the-bad-and-the-ugly-e9d6e7a34daf)  
 - [CQRS Principle with Symfony Messenger - Mert Simsek](https://medium.com/beyn-technology/cqrs-principle-with-symfony-messenger-6c0fb2c28917)  
-
-
 
