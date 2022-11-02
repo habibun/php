@@ -7,27 +7,37 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 
 ---
 [Architecture][architecture]
-- [Cqrs][cqrs]
+- [CQRS][cqrs]
 - [EventDriven][event-driven]
 - [EventSourcing][event-sourcing]
 - [Hexagonal][hexagonal]
-- [Hmvc][hmvc]
+- [HMVC][hmvc]
 - [Layered][layered]
 - [Microservice][microservice]
 - [ModelDriven][model-driven]
 - [Multitier][multitier]
-- [Mvc][mvc]
+- [MVC][mvc]
 - [ServiceOriented][service-oriented]
 - [ServiceLayer][service-layer]
 
 ---
 [Concept][concept]
+- [DDD][ddd]
 
 ---
 [Core][Core]
 
 ---
 [DesignPattern][design-pattern]
+- [Behavioral][behavioral]
+- [CommandBus][command-bus]
+- [Creational][creational]
+- [DecoratorPattern][decorator-pattern]
+- [DependencyInjection][dependency-injection]
+- [EventBus][event-bus]
+- [RepositoryPattern][repository-pattern]
+- [ServiceLocator][service-locator]
+- [Structural][structural]
 
 ---
 [DesignPrinciple][design-principle]
@@ -59,6 +69,9 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 [paradigm]: https://github.com/habibun/php/tree/main/src/Paradigm
 [api]: https://github.com/habibun/php/tree/main/src/Api
 [rest]: https://github.com/habibun/php/tree/main/src/Api/Rest
+
+
+[//]: # (Architecture)
 [cqrs]: https://github.com/habibun/php/tree/main/src/Architecture/Cqrs
 [event-driven]: https://github.com/habibun/php/tree/main/src/Architecture/EventDriven
 [event-sourcing]: https://github.com/habibun/php/tree/main/src/Architecture/EventSourcing
@@ -71,3 +84,16 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 [mvc]: https://github.com/habibun/php/tree/main/src/Architecture/Mvc
 [service-oriented]: https://github.com/habibun/php/tree/main/src/Architecture/ServiceOriented
 [service-layer]: https://github.com/habibun/php/tree/main/src/Architecture/ServiceLayer
+[ddd]: https://github.com/habibun/php/tree/main/src/Concept/ddd
+
+
+[//]: # (DesignPattern)
+[behavioral]: 
+[command-bus]: 
+[creational]: 
+[decorator-pattern]: 
+[dependency-injection]: 
+[event-bus]: 
+[repository-pattern]: 
+[service-locator]: 
+[structural]: 
