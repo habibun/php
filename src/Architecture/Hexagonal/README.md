@@ -33,3 +33,7 @@ These adapters react to action initiated by the primary adapters.
 The secondary adapters are implementations of the outbound port. 
 Which in return depend on interfaces of these external libraries and tools to transform them, 
 so the core application can use these without being coupled to them.
+
+
+# Reference 
+- [Matthias Noback - Hexagonal Architecture - Message-Oriented Software Design](https://www.youtube.com/watch?v=K1EJBmwg9EQ)
