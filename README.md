@@ -88,12 +88,13 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 
 
 [//]: # (DesignPattern)
-[behavioral]: 
-[command-bus]: 
-[creational]: 
-[decorator-pattern]: 
-[dependency-injection]: 
-[event-bus]: 
-[repository-pattern]: 
-[service-locator]: 
-[structural]: 
+[behavioral]: https://github.com/habibun/php/tree/main/src/DesignPattern/Behavioral
+[command-bus]: https://github.com/habibun/php/tree/main/src/DesignPattern/CommandBus
+[creational]: https://github.com/habibun/php/tree/main/src/DesignPattern/Creational
+[decorator-pattern]: https://github.com/habibun/php/tree/main/src/DesignPattern/DecoratorPattern
+[dependency-injection]: https://github.com/habibun/php/tree/main/src/DesignPattern/DependencyInjection
+[event-bus]: https://github.com/habibun/php/tree/main/src/DesignPattern/EventBus
+[repository-pattern]: https://github.com/habibun/php/tree/main/src/DesignPattern/RepositoryPattern
+[service-locator]: https://github.com/habibun/php/tree/main/src/DesignPattern/ServiceLocator
+[structural]: https://github.com/habibun/php/tree/main/src/DesignPattern/Structural
+
