@@ -5,3 +5,11 @@ A factory is a function or method that returns objects of a varying prototype or
 - **Factory Method** 
 - **Abstract Factory Method** 
 - **Simple Factory** 
+
+
+
+## Reference
+
+--- 
+[Factory design pattern with real-life example (PHP) - Hasan Sheikh](https://proghasan.medium.com/factory-design-pattern-with-real-life-example-php-e473f62870cc)
+
