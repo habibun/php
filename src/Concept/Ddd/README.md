@@ -27,3 +27,5 @@ Separating DDD into four parts as a learning approach:
 - only make sense when there is complexity in the problem
 
 
+---
+[Domain Driven Design In A Nutshell](https://github.com/habibun/ddd)
