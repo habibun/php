@@ -105,7 +105,7 @@ Services can be of three types:
 - [DDD & Testing Strategy](http://www.taimila.com/blog/ddd-and-testing-strategy/)
 
 ---
-### Resources: ###  
+### Articles: ###  
 - [Discovering the Domain Architecture](https://www.microsoftpressstore.com/articles/article.aspx?p=2248811)
 - [The absolute beginner's guide to Domain Driven Design with Symfony](https://www.youtube.com/watch?v=pfMGgd_NDPc)
 - [DDD & REST - Domain Driven APIs for the Web  ](https://www.youtube.com/watch?v=1RgXgZcj5nM)
@@ -116,5 +116,8 @@ Services can be of three types:
 - [My review of the book "DDD in PHP"](https://www.linkedin.com/pulse/my-review-book-ddd-php-roman-dykyi)
 - [Is it a DTO or a Value Object? - Matthias Noback](https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/)
 - [Money pattern](https://martinfowler.com/eaaCatalog/money.html) - [money php library](https://github.com/moneyphp/money)
+- [Data Mapper](https://www.martinfowler.com/eaaCatalog/dataMapper.html) by Martin Fowler
 
 ### Example applications
+[Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf
+[blog-cqrs](https://github.com/dddshelf/blog-cqrs) by DDD Shelf
