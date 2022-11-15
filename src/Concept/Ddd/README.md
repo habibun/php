@@ -11,10 +11,19 @@ that meets our business goals.
 - [Strategic Design](StrategicDesign.md)
 - [Tactical Design](TacticalDesign.md)
 
+
+---
+### Ubiquitous Language ###
+'Ubiquitous Language' is the language that is used by business experts to describe the Domain Model.
+It means that the development team uses the language consistently in all communications, and also in the code.
+This language should be based on the Domain Model
+
+
 ---
 ### Event Storming ###
+Event Storming is a workshop format for quickly exploring complex business domains.  
 
-Event Storming is a workshop format for quickly exploring complex business domains.
+[More](EventStorming.md)
 
 ---
 ### Domain ###
@@ -28,6 +37,7 @@ Domain-Driven Design uses Domains and Subdomains to group and organize what comp
 
 ---
 ### Domain Model ###
+
 - [Domain-driven design practice — Modelling the payments system](https://medium.com/airwallex-engineering/domain-driven-design-practice-modeling-payments-system-f7bc5cf64bb3) 
 
 [More](DomainModel.md) 
@@ -55,6 +65,14 @@ An object that can be identified uniquely or by its identifier. Entity can be id
 
 - [DDD and your database by Matthias Noback](https://matthiasnoback.nl/2020/05/ddd-and-your-database)
 
+[More](Entity.md) 
+
+---
+### Event Sourcing ###
+- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) by Martin Fowler
+
+[More](EventSourcing.md)
+
 
 ---
 ### Value Object ###
@@ -62,8 +80,8 @@ An object that contains attributes but has no conceptual identity.
 
 Examples of Value Objects are numbers, text strings, dates, times, a person's full name
 (composed of first name, middle name, last name, and title), currencies, colors, phone
-numbers, and postal addresses.
-
+numbers, and postal addresses.  
+[More](ValueObject.md)
 
 ---
 ### Aggregate ###  
@@ -93,11 +111,21 @@ Services can be of three types:
 
 ---
 ### Layer ###
-[More](Layer.md)
+Layered Architecture is the idea of isolation of each part based on years of experience and convention.
+[More](LayeredArchitecture.md)
 
 ---
 ### Anti-corruption layers ###
 [More](AntiCorruptionLayer.md)
+
+---
+### Factories ###
+Factories are used to encapsulate the knowledge necessary for object creation, and they are especially useful to create Aggregates.
+
+---
+### Repository ###
+A Repository is basically a layer that sits between your project’s domain and the database
+
 
 ---
 ### Testing ###
@@ -118,6 +146,8 @@ Services can be of three types:
 - [Money pattern](https://martinfowler.com/eaaCatalog/money.html) - [money php library](https://github.com/moneyphp/money)
 - [Data Mapper](https://www.martinfowler.com/eaaCatalog/dataMapper.html) by Martin Fowler
 
+
+---
 ### Example applications
-[Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf
+[Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf  
 [blog-cqrs](https://github.com/dddshelf/blog-cqrs) by DDD Shelf

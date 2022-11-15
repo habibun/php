@@ -1,5 +1,5 @@
 # Layered Architecture
-Layered Architecture is the idea of isolation of each part based on years of experience and convention. The Layers are listed below:
+The Layers are listed below:
 
 - **User Interface** The User Interface is responsible for showing information to the user and interpreting the user’s commands.
 - **Application Layer** Application Layer is the way we communicate with the world outside (out of the application domain).

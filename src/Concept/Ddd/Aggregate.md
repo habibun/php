@@ -1,3 +1,4 @@
-Entity and value objects are divided into aggregation and define the boundary around the aggregation.
-Select an entity as the root of each aggregation and allow only external objects to hold references to the aggregation root.
-Define the attributes and invariants of the aggregation as a whole and assign responsibility for their execution to the aggregation root or the specified framework mechanism.
+Aggregate is a pattern in Domain-Driven Design. A DDD aggregate is a cluster of domain objects that can be treated as a single unit. An example may be an order and its line-items, these will be separate objects, but it's useful to treat the order (together with its line items) as a single aggregate.
+
+An aggregate will have one of its component objects be the aggregate root. Any references from outside the aggregate should only go to the aggregate root. The root can thus ensure the integrity of the aggregate as a whole.
+
