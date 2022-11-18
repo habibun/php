@@ -149,6 +149,6 @@ A Repository is basically a layer that sits between your project’s domain and 
 
 ---
 ### Example applications  
-[Hexagonal Architecture + DDD + CQRS in PHP using Symfony 6](https://github.com/CodelyTV/php-ddd-example)  
+[Hexagonal Architecture + DDD + CQRS in PHP using Symfony 6](https://github.com/CodelyTV/php-ddd-example) by CodelyTV  
 [Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf  
 [blog-cqrs](https://github.com/dddshelf/blog-cqrs) by DDD Shelf  
