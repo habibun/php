@@ -128,6 +128,12 @@ A Repository is basically a layer that sits between your project’s domain and 
 
 
 ---
+### Modules ###
+When you place some classes together in a Module, you are telling the next developer who looks at your design to think about them together.
+If your model is telling a story, the Modules are chapters.
+
+
+---
 ### Testing ###
 - [Domain-Driven Design & Unit Tests](https://www.jamesmichaelhickey.com/ddd-unit-tests/)
 - [DDD & Testing Strategy](http://www.taimila.com/blog/ddd-and-testing-strategy/)
