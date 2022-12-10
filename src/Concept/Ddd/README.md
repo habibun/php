@@ -139,7 +139,7 @@ If your model is telling a story, the Modules are chapters.
 - [DDD & Testing Strategy](http://www.taimila.com/blog/ddd-and-testing-strategy/)
 
 ---
-### Articles: ###  
+### Articles ###  
 - [Discovering the Domain Architecture](https://www.microsoftpressstore.com/articles/article.aspx?p=2248811)
 - [The absolute beginner's guide to Domain Driven Design with Symfony](https://www.youtube.com/watch?v=pfMGgd_NDPc)
 - [DDD & REST - Domain Driven APIs for the Web  ](https://www.youtube.com/watch?v=1RgXgZcj5nM)
