@@ -158,3 +158,4 @@ If your model is telling a story, the Modules are chapters.
 [Hexagonal Architecture + DDD + CQRS in PHP using Symfony 6](https://github.com/CodelyTV/php-ddd-example) by CodelyTV  
 [Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf  
 [blog-cqrs](https://github.com/dddshelf/blog-cqrs) by DDD Shelf  
+[last-wishes-gamify](https://github.com/dddshelf/last-wishes-gamify) by DDD Shelf 
