@@ -163,4 +163,4 @@ If your model is telling a story, the Modules are chapters.
 
 ---
 ### Books
-[Domain-Driven Design in PHP By Carlos Buenosvinos , Christian Soronellas , Keyvan Akbary
+Domain-Driven Design in PHP By Carlos Buenosvinos , Christian Soronellas , Keyvan Akbary
