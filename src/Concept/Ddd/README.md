@@ -159,3 +159,8 @@ If your model is telling a story, the Modules are chapters.
 [Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf  
 [blog-cqrs](https://github.com/dddshelf/blog-cqrs) by DDD Shelf  
 [last-wishes-gamify](https://github.com/dddshelf/last-wishes-gamify) by DDD Shelf 
+
+
+---
+### Books
+[Domain-Driven Design in PHP By Carlos Buenosvinos , Christian Soronellas , Keyvan Akbary
