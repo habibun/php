@@ -2,7 +2,6 @@
 
 namespace Php\Migration\Php80To81;
 
-class ExplicitOctalNumeralNotation
-{
+echo 0o16 === 16; // false — not confusing with explicit notation
+echo 0o16 === 14; // true
 
-}

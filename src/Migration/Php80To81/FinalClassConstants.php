@@ -9,5 +9,5 @@ class Foo
 
 class Bar extends Foo
 {
-    public const XX = "bar"; // Fatal error
+//    public const XX = "bar"; // Fatal error
 }
