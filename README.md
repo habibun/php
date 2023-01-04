@@ -39,14 +39,25 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 - [ServiceLocator][service-locator]
 - [Structural][structural]
 
+
 ---
 [DesignPrinciple][design-principle]
+
 
 ---
 [DevelopmentTechnique][development-technique]
 
+
 ---
-[Migration][migration]
+[Migration][migration]  
+  - [Php56To70][Php56To70]
+  - [Php70To71][Php70To71]
+  - [Php71To72][Php71To72]
+  - [Php72To73][Php72To73]
+  - [Php73To74][Php73To74]
+  - [Php74To80][Php74To80]
+  - [Php80To81][Php80To81]
+
 
 ---
 [Paradigm][paradigm]
@@ -100,4 +111,8 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 [repository-pattern]: https://github.com/habibun/php/tree/main/src/DesignPattern/RepositoryPattern
 [service-locator]: https://github.com/habibun/php/tree/main/src/DesignPattern/ServiceLocator
 [structural]: https://github.com/habibun/php/tree/main/src/DesignPattern/Structural
+
+
+[//]: # (Migration)
+[Php56To70]: https://github.com/habibun/php/tree/main/src/Migration/Php56To70
 
