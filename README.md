@@ -115,4 +115,9 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 
 [//]: # (Migration)
 [Php56To70]: https://github.com/habibun/php/tree/main/src/Migration/Php56To70
-
+[Php70To71]: https://github.com/habibun/php/tree/main/src/Migration/Php70To71
+[Php71To72]: https://github.com/habibun/php/tree/main/src/Migration/Php71To72
+[Php72To73]: https://github.com/habibun/php/tree/main/src/Migration/Php72To73
+[Php73To74]: https://github.com/habibun/php/tree/main/src/Migration/Php73To74
+[Php74To80]: https://github.com/habibun/php/tree/main/src/Migration/Php74To80
+[Php80To81]: https://github.com/habibun/php/tree/main/src/Migration/Php80To81
