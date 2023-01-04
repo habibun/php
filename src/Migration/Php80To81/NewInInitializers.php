@@ -2,7 +2,18 @@
 
 namespace Php\Migration\Php80To81;
 
-class NewInInitializers
+class Service
 {
+    private Logger $logger;
+
+    public function __construct(Logger $logger = new Logger())
+    {
+        $this->logger = $logger;
+    }
+
+}
+
+
+class Logger {
 
 }
