@@ -1,0 +1,7 @@
+Operator            Description                     Example
+==                  is equal to                     5==8 returns false
+!=                  is not equal                    5!=8 returns true
+>                   is greater than                 5>8 returns false
+<                   is less than                    5<8 returns true
+>=                  is greater than or equal to     5>=8 returns false
+<=                  is less than or equal to        5<=8 returns true

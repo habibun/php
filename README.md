@@ -2,11 +2,11 @@
 PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &amp; Concepts
 
 ---
-[API][api]  
+## [API][api]  
 - [Rest][rest]
 
 ---
-[Architecture][architecture]
+## [Architecture][architecture]
 - [CQRS][cqrs]
 - [EventDriven][event-driven]
 - [EventSourcing][event-sourcing]
@@ -21,14 +21,15 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 - [ServiceLayer][service-layer]
 
 ---
-[Concept][concept]
+## [Concept][concept]
 - [DDD][ddd]
 
 ---
-[Core][Core]
+## [Core Features][core]  
+  - //todo
 
 ---
-[DesignPattern][design-pattern]
+## [Design Patterns][design-pattern]
 - [Behavioral][behavioral]
 - [CommandBus][command-bus]
 - [Creational][creational]
@@ -40,17 +41,20 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 - [Structural][structural]
 
 ---
-[DesignPrinciple][design-principle]
+## [DesignPrinciple][design-principle]  
+-  //todo
 
 ---
-[DevelopmentTechnique][development-technique]
+## [DevelopmentTechnique][development-technique]  
+- //todo
 
 ---
-[Migration][migration]
+## [Migration][migration]
+- //todo
 
 ---
-[Paradigm][paradigm]
-
+## [Paradigm][paradigm]  
+- //todo 
 
 
 
@@ -61,7 +65,7 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 [//]: # (Links)
 [architecture]: https://github.com/habibun/php/tree/main/src/Architecture
 [concept]: https://github.com/habibun/php/tree/main/src/Concept
-[Core]: https://github.com/habibun/php/tree/main/src/Core
+[core]: https://github.com/habibun/php/tree/main/src/Core
 [design-pattern]: https://github.com/habibun/php/tree/main/src/DesignPattern
 [design-principle]: https://github.com/habibun/php/tree/main/src/DesignPrinciple
 [development-technique]: https://github.com/habibun/php/tree/main/src/DevelopmentTechnique

@@ -1,0 +1,24 @@
+PHP $_POST:
+The $_POST variable is used to collect values from a form with method="post".
+
+The $_POST Variable:
+The $_POST variable is an array of variable names and values sent by the HTTP POST method.
+The $_POST variable is used to collect values from a form with method="post". Information sent from a form with the POST method is invisible to others and has no limits on the amount of information to send.
+
+Example:
+ <form action="welcome.php" method="post">
+ Enter your name: <input type="text" name="name" />
+ Enter your age: <input type="text" name="age" />
+ <input type="submit" />
+ </form>
+
+When the user clicks the "Submit" button, the URL will not contain any form data, and will look something like this:
+http://www.w3schools.com/welcome.php
+
+The "welcome.php" file can now use the $_POST variable to catch the form data (notice that the names of the form fields will automatically be the ID keys in the $_POST array):
+Welcome <?php echo $_POST["name"]; ?>.<br />
+You are <?php echo $_POST["age"]; ?> years old!
+
+Why use $_POST?:
+ Variables sent with HTTP POST are not shown in the URL   Variables have no length limit
+However, because the variables are not displayed in the URL, it is not possible to bookmark the page.

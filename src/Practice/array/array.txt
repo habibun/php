@@ -1,0 +1,41 @@
+PHP Arrays:
+
+An array can store one or more values in a single variable name.
+What is an array?
+When working with PHP, sooner or later, you might want to create many similar variables.
+Instead of having many similar variables, you can store the data as elements in an array.
+Each element in the array has its own ID so that it can be easily accessed.
+
+
+an array is a data structure that stores one or more values in a single values.
+
+in php there are three kinds of array:
+1.Numeric array()
+2.Associative array()
+3.Multidimensional array()
+
+
+*in array array key or position key is called offset in programming language.
+
+in below this is example that change offset's element's value
+<?php
+$MyArray = array(11,12,13,14,15);
+for($i=0;$i<5;$i++)
+    $MyArray[$i] = $MyArray[$i]*$MyArray[$i];
+print_r($MyArray);
+?>
+
+*in php if a array's offset is numeric it is called indexed array.
+*if a array's offset is string it is called associative array.
+
+
+important:
+
+*in array while,do while,for loop are not use in array.
+only foreach loop is use in array.
+
+<?php
+$name=array(0=>"jony",1=>"rony",2=>"sumon");//this array jony rony and sumon is called element
+print_r($name);
+?>
+

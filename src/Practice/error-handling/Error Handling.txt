@@ -1,0 +1,11 @@
+PHP Error Handling:
+The default error handling in PHP is very simple. An error message with filename, line number and a message describing the error is sent to the browser.
+
+PHP Error Handling:
+When creating scripts and web applications, error handling is an important part. If your code lacks error checking code, your program may look very unprofessional and you may be open to security risks.
+
+This tutorial contains some of the most common error checking methods in PHP.
+We will show different error handling methods:
+ Simple "die()" statements
+ Custom errors and error triggers
+ Error reporting

@@ -1,0 +1,7 @@
+Operator                Example                 Is The Same As
+=                       x=y                     x=y
++=                      x+=y                    x=x+y
+-=                      x-=y                    x=x-y
+*=                      x*=y                    x=x*y
+/=                      x/=y                    x=x/y
+%=                      x%=y                    x=x%y

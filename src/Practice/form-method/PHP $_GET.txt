@@ -1,0 +1,23 @@
+PHP $_GET:
+The $_GET variable is used to collect values from a form with method="get".
+
+The $_GET Variable:
+The $_GET variable is an array of variable names and values sent by the HTTP GET method.
+The $_GET variable is used to collect values from a form with method="get". Information sent from a form with the GET method is visible to everyone (it will be displayed in the browser's address bar) and it has limits on the amount of information to send (max. 100 characters).
+
+Example:
+ <form action="welcome.php" method="get">
+ Name: <input type="text" name="name" />
+ Age: <input type="text" name="age" />
+ <input type="submit" />
+ </form>
+
+When the user clicks the "Submit" button, the URL sent could look something like this:
+http://www.w3schools.com/welcome.php?name=Peter&age=37
+
+The "welcome.php" file can now use the $_GET variable to catch the form data (notice that the names of the form fields will automatically be the ID keys in the $_GET array):
+Welcome <?php echo $_GET["name"]; ?>.<br /> You are <?php echo $_GET["age"]; ?> years old!
+
+Why use $_GET?:
+Note: When using the $_GET variable all variable names and values are displayed in the URL. So this method should not be used when sending passwords or other sensitive information! However, because the variables are displayed in the URL, it is possible to bookmark the page. This can be useful in some cases.
+Note: The HTTP GET method is not suitable on large variable values; the value cannot exceed 100 characters.

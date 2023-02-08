@@ -1,0 +1,12 @@
+The PHP mail() Function:
+The PHP mail() function is used to send emails from inside a script.
+
+Syntax:
+mail(to,subject,message,headers,parameters)
+
+Parameter           Description
+to                  Required. Specifies the receiver / receivers of the email
+subject             Required. Specifies the subject of the email.Note: This parameter cannot contain any newline characters
+message             Required. Defines the message to be sent. Each line should be separated with a LF (\n). Lines should not exceed 70 characters
+headers             Optional. Specifies additional headers, like From, Cc, and Bcc. The additional headers should be separated with a CRLF (\r\n)
+parameters          Optional. Specifies an additional parameter to the sendmail program

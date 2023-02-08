@@ -1,0 +1,10 @@
+php have 8 type data:
+
+1.integer=10, 5, 6
+2.float=5.25, 3.0
+3.string="this is a test"
+4.boolean=TRUE,FALSE
+5.array
+6.object
+7.resource
+8.NULL

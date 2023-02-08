@@ -1,0 +1,120 @@
+PHP Filesystem Reference:
+PHP Filesystem Functions
+PHP Filesystem Introduction:
+The filesystem functions allow you to access and manipulate the filesystem.
+
+Installation:
+The filesystem functions are part of the PHP core. There is no installation needed to use these functions.
+
+Runtime Configuration:
+The behavior of the filesystem functions is affected by settings in php.ini.
+
+Filesystem configuration options:
+Name Default Description Changeable allow_url_fopen "1" Allows fopen()-type functions to work with URLs (available since PHP 4.0.4) PHP_INI_SYSTEM  user_agent NULL Defines the user agent for PHP to send (available since PHP 4.3)  PHP_INI_ALL default_socket_timeout "60" Sets the default timeout, in seconds, for socket based streams (available since PHP 4.3)  PHP_INI_ALL from "" Defines the anonymous FTP password (your email address) PHP_INI_ALL auto_detect_line_endings"0" When set to "1", PHP will examine the data read by fgets() and file() to see if it is using Unix, MS-Dos or Mac line- ending characters (available since PHP 4.3) PHP_INI_ALL
+Unix / Windows Compatibility
+When specifying a path on Unix platforms, the forward slash (/) is used as directory separator. However, on Windows platforms, both forward slash (/) and backslash (\) can be used.
+
+
+
+PHP Filesystem Functions:
+
+PHP: indicates the earliest version of PHP that supports the function.
+
+
+Function                    Description                                                                                 PHP
+basename()                  Returns the filename component of a path                                                    3
+chgrp()                     Changes the file group                                                                      3
+chmod()                     Changes the file mode                                                                       3
+chown()                     Changes the file owner                                                                      3
+clearstatcache()            Clears the file status cache                                                                3
+copy()                      Copies a file                                                                               3
+delete()                    See unlink() or unset()
+dirname()                   Returns the directory name component of a path                                              3
+disk_free_space()           Returns the free space of a directory                                                       4
+disk_total_space()          Returns the total size of a directory                                                       4
+diskfreespace()             Alias of disk_free_space()                                                                  3
+fclose()                    Closes an open file                                                                         3
+feof()                      Tests for end-of-file on an open file                                                       3
+fflush()                    Flushes buffered output to an open file                                                     4
+fgetc()                     Returns a character from an open file                                                       3
+fgetcsv()                   Parses a line from an open file, checking for CSV fields                                    3
+fgets()                     Returns a line from an open file                                                            3
+fgetss()                    Returns a line, with HTML and PHP tags removed, from an open file                           3
+file()                      Reads a file into an array                                                                  3
+file_exists()               Checks whether or not a file or directory exists                                            3
+file_get_contents()         Reads a file into a string                                                                  4
+file_put_contents           Writes a string to a file                                                                   5
+fileatime()                 Returns the last access time of a file                                                      3
+filectime()                 Returns the last change time of a file                                                      3
+filegroup()                 Returns the group ID of a file                                                              3
+fileinode()                 Returns the inode number of a file                                                          3
+filemtime()                 Returns the last modification time of a file                                                3
+fileowner()                 Returns the user ID (owner) of a file                                                       3
+fileperms()                 Returns the permissions of a file                                                           3
+filesize()                  Returns the file size                                                                       3
+filetype()                  Returns the file type                                                                       3
+flock()                     Locks or releases a file                                                                    3
+fnmatch()                   Matches a filename or string against a specified pattern                                    4
+fopen()                     Opens a file or URL                                                                         3
+fpassthru()                 Reads from an open file, until EOF, and writes the result to the output buffer              3
+fputcsv()                   Formats a line as CSV and writes it to an open file                                         5
+fputs()                     Alias of fwrite()                                                                           3
+fread()                     Reads from an open file                                                                     3
+fscanf()                    Parses input from an open file according to a specified format                              4
+fseek()                     Seeks in an open file                                                                       3
+fstat()                     Returns information about an open file                                                      4
+ftell()                     Returns the current position in an open file                                                3
+ftruncate()                 Truncates an open file to a specified length                                                4
+fwrite()                    Writes to an open file                                                                      3
+glob()                      Returns an array of filenames / directories matching a specified pattern                    4
+is_dir()                    Checks whether a file is a directory                                                        3
+is_executable()             Checks whether a file is executable                                                         3
+is_file()                   Checks whether a file is a regular file                                                     3
+is_link()                   Checks whether a file is a link                                                             3
+is_readable()               Checks whether a file is readable                                                           3
+is_uploaded_file()          Checks whether a file was uploaded via HTTP POST                                            3
+is_writable()               Checks whether a file is writeable                                                          4
+is_writeable()              Alias of is_writable()                                                                      3
+link()                      Creates a hard link                                                                         3
+linkinfo()                  Returns information about a hard link                                                       3
+lstat()                     Returns information about a file or symbolic link                                           3
+mkdir()                     Creates a directory                                                                         3
+move_uploaded_file()        Moves an uploaded file to a new location                                                    4
+parse_ini_file()            Parses a configuration file                                                                 4
+pathinfo()                  Returns information about a file path                                                       4
+pclose()                    Closes a pipe opened by popen()                                                             3
+popen()                     Opens a pipe                                                                                3
+readfile()                  Reads a file and writes it to the output buffer                                             3
+readlink()                  Returns the target of a symbolic link                                                       3
+realpath()                  Returns the absolute pathname                                                               4
+rename()                    Renames a file or directory                                                                 3
+rewind()                    Rewinds a file pointer                                                                      3
+rmdir()                     Removes an empty directory                                                                  3
+set_file_buffer()           Sets the buffer size of an open file                                                        3
+stat()                      Returns information about a file                                                            3
+symlink()                   Creates a symbolic link                                                                     3
+tempnam()                   Creates a unique temporary file                                                             3
+tmpfile()                   Creates a unique temporary file                                                             3
+touch()                     Sets access and modification time of a file                                                 3
+umask()                     Changes file permissions for files 3 unlink() Deletes a file                                3
+
+
+
+PHP Filesystem Constants:
+
+PHP: indicates the earliest version of PHP that supports the constant.
+
+Constant                                            Description                             PHP
+GLOB_BRACE
+GLOB_ONLYDIR
+GLOB_MARK
+GLOB_NOSORT
+GLOB_NOCHECK
+GLOB_NOESCAPE
+PATHINFO_DIRNAME
+PATHINFO_BASENAME
+PATHINFO_EXTENSION
+FILE_USE_INCLUDE_PATH
+FILE_APPEND
+FILE_IGNORE_NEW_LINES
+FILE_SKIP_EMPTY_LINES

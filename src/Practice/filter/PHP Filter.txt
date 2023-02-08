@@ -1,0 +1,28 @@
+PHP filters is used to validate and filter data coming from insecure sources, like user input.
+What is a PHP Filter?
+A PHP filter is used to validate and filter data coming from insecure sources.
+To test, validate and filter user input or custom data is an important part of any web application.
+The PHP filter extension is designed to make data filtering easier and quicker.
+
+Why use a Filter?
+Almost all web applications depend on external input. Usually this comes from a user or another application (like a web service). By using filters you can be sure your application gets the correct input type.
+You should always filter all external data!
+Input filtering is one of the most important application security issues.
+
+What is external data?
+ Input data from a form
+ Cookies
+ Web services data
+ Server variables
+ Database query results
+
+There are two kinds of filters:
+Validating filters:
+ Are used to validate user input
+ Strict format rules (like URL or E-Mail validating)
+ Returns the expected type on success or FALSE on failure
+
+Sanitizing filters:
+ Are used to allow or disallow specified characters in a string
+ No data format rules
+ Always return the string

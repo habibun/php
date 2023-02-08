@@ -1,0 +1,6 @@
+Functions and Filters:
+To filter a variable, use one of the following filter functions:
+ filter_var() - Filters a single variable with a specified filter
+ filter_var_array() - Filter several variables with the same or different filters
+ filter_input - Get one input variable and filter it
+ filter_input_array - Get several input variables and filter them with the same or different filters

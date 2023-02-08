@@ -1,0 +1,8 @@
+Operator    Description                 Example             Result
+ +          Addition                    x=2 x+2             4
+ -          Subtraction                 x=2 5-x             3
+ *          Multiplication              x=4 x*5             20
+ /          Division                    15/5 5/2            3 2.5
+ %          Modulus (division remainder) 5%2 10%8 10%2      1 2 0
+++          Increment                   x=5 x++             x=6
+--          Decrement x=5               x--                 x=4

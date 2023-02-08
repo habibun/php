@@ -1,0 +1,3 @@
+in php there are two quote:
+ 1=single quote('')
+ 2=double quote("")

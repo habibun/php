@@ -1,0 +1,25 @@
+PHP Functions
+
+The real power of PHP comes from its functions.
+In PHP - there are more than 700 built-in functions available.
+
+
+function definition:
+A function is a block of code that can be executed whenever we need it.
+
+Create a PHP Function
+A function is a block of code that can be executed whenever we need it.
+Creating PHP functions:
+ All functions start with the word "function()"
+ Name the function - It should be possible to understand what the function does by its name.
+The name can start with a letter or underscore (not a number)
+ Add a "{"  - The function code starts after the opening curly brace
+ Insert the function code
+ Add a "}"  - The function is finished by a closing curly brace
+
+
+PHP Functions - Adding parameters:
+
+Our first function (writeMyName()) is a very simple function. It only writes a static string.
+To add more functionality to a function, we can add parameters. A parameter is just like a variable.
+You may have noticed the parentheses after the function name, like: writeMyName(). The parameters are specified inside the parentheses.

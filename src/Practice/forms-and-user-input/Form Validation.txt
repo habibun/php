@@ -1,0 +1,4 @@
+Form Validation:
+User input should be validated whenever possible. Client side validation is faster, and will reduce server load.
+However, any site that gets enough traffic to worry about server resources, may also need to worry about site security. You should always use server side validation if the form accesses a database.
+A good way to validate a form on the server is to post the form to itself, instead of jumping to a different page. The user will then get the error messages on the same page as the form. This makes it easier to discover the error.

@@ -1,0 +1,11 @@
+Server Side Includes:
+You can insert the content of a file into a PHP file before the server executes it,
+with the include() or require() function. The two functions are identical in every way,
+except how they handle errors.
+The include() function generates a warning (but the script will continue execution)
+while the require() function generates a fatal error (and the script execution will stop after the error).
+These two functions are used to create functions, headers, footers, or elements that can be reused on multiple pages.
+This can save the developer a considerable amount of time.
+This means that you can create a standard header or menu file that you want all your web pages to include.
+When the header needs to be updated, you can only update this one include file, or when you add a new page to your site,
+you can simply change the menu file (instead of updating the links on all web pages).

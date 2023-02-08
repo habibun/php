@@ -1,0 +1,12 @@
+PHP Looping
+Looping statements in PHP are used to execute the same block of code a specified number of times.
+
+Looping
+Very often when you write code, you want the same block of code to run a number of times. You can use looping statements in your code to perform this.
+
+
+In PHP we have the following looping statements:
+ while - loops through a block of code if and as long as a specified condition is true
+ do...while - loops through a block of code once, and then repeats the loop as long as a special condition is true
+ for - loops through a block of code a specified number of times
+ foreach - loops through a block of code for each element in an array

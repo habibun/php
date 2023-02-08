@@ -1,0 +1,8 @@
+The $_REQUEST Variable:
+The PHP $_REQUEST variable contains the contents of both $_GET, $_POST, and $_COOKIE.
+
+The PHP $_REQUEST variable can be used to get the result from form data sent with both the GET and POST methods.
+
+Example:
+Welcome <?php echo $_REQUEST["name"]; ?>.<br />
+You are <?php echo $_REQUEST["age"]; ?> years old!

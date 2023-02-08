@@ -1,0 +1,16 @@
+The file may be opened in one of the following modes:
+
+
+Modes                    Description
+r                        Read only. Starts at the beginning of the file
+r+                       Read/Write. Starts at the beginning of the file
+w                        Write only. Opens and clears the contents of file; or creates a new file if it doesn't exist
+w+                       Read/Write. Opens and clears the contents of file; or creates a new file if it doesn't exist
+a                        Append. Opens and writes to the end of the file or creates a new file if it doesn't exist
+a+                       Read/Append. Preserves file content by writing to the end of the file
+x                        Write only. Creates a new file. Returns FALSE and an error if file already exists
+x+                       Read/Write. Creates a new file. Returns FALSE and an error if file already exists
+
+
+
+Note: If the fopen() function is unable to open the specified file, it returns 0 (false).

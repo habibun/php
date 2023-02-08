@@ -1,0 +1,13 @@
+PHP Sessions:
+A PHP session variable is used to store information about, or change settings for a user session.
+Session variables hold information about one single user, and are available to all pages in one application.
+
+PHP Session Variables:
+When you are working with an application, you open it, do some changes and then you close it.
+This is much like a Session. The computer knows who you are.
+It knows when you start the application and when you end.
+But on the internet there is one problem: the web server does not know who you are and what you do because the HTTP address doesn't maintain state.
+A PHP session solves this problem by allowing you to store user information on the server for later use (i.e. username, shopping items, etc). However, session information is temporary and will be deleted after the user has left the website.
+If you need a permanent storage you may want to store the data in a database.
+Sessions work by creating a unique id (UID) for each visitor and store variables based on this UID.
+The UID is either stored in a cookie or is propagated in the URL.

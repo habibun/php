@@ -1,0 +1,12 @@
+a code block is execute or not it is defined by if statement.
+() in bracket what are contain is called expression.
+{} in bracket what are contain is called codeblock.
+if expression is true then run the codeblock otherwise not.
+
+example:
+if(expression)
+{
+codeblock//it is execute when expression is true
+}
+
+if code block is one line then it is not needed to second bracket
