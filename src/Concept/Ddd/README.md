@@ -5,9 +5,9 @@ provides us with strategic and tactical modeling tools to aid designing high-qua
 that meets our business goals.
 
 ## Three Pillars ###
-- [Ubiquitous Language](UbiquitousLanguage.md)
-- [Strategic Design](StrategicDesign.md)
-- [Tactical Design](TacticalDesign.md)
+- [Ubiquitous Language](docs/UbiquitousLanguage.md)
+- [Strategic Design](docs/StrategicDesign.md)
+- [Tactical Design](docs/TacticalDesign.md)
 
 
 ## Ubiquitous Language  
@@ -19,7 +19,7 @@ This language should be based on the Domain Model
 ## Event Storming  
 Event Storming is a workshop format for quickly exploring complex business domains.  
 
-[More](EventStorming.md)
+[More](docs/EventStorming.md)
 
 
 
@@ -30,14 +30,14 @@ It is also termed as sphere of knowledge.
 
 ## Subdomain 
 Domain-Driven Design uses Domains and Subdomains to group and organize what companies want to solve.
-[More](Subdomain.md)
+[More](docs/Subdomain.md)
 
 
 ## Domain Model  
 
 - [Domain-driven design practice — Modelling the payments system](https://medium.com/airwallex-engineering/domain-driven-design-practice-modeling-payments-system-f7bc5cf64bb3) 
 
-[More](DomainModel.md) 
+[More](docs/DomainModel.md) 
 
 
 ## Domain Expert   
@@ -49,11 +49,11 @@ Domain expert is a person who is an owner in a particular area or topic.
 
 
 ## Bounded context  
-**[More](BoundedContext.md)**
+**[More](docs/BoundedContext.md)**
 
 
 ## Context map  
-**[More](ContextMap.md)** 
+**[More](docs/ContextMap.md)** 
 
 
 ## Entity  
@@ -61,13 +61,13 @@ An object that can be identified uniquely or by its identifier. Entity can be id
 
 - [DDD and your database by Matthias Noback](https://matthiasnoback.nl/2020/05/ddd-and-your-database)
 
-[More](Entity.md) 
+[More](docs/Entity.md) 
 
 
 ## Event Sourcing  
 - [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) by Martin Fowler
 
-[More](EventSourcing.md)
+[More](docs/EventSourcing.md)
 
 
 
@@ -77,14 +77,14 @@ An object that contains attributes but has no conceptual identity.
 Examples of Value Objects are numbers, text strings, dates, times, a person's full name
 (composed of first name, middle name, last name, and title), currencies, colors, phone
 numbers, and postal addresses.  
-[More](ValueObject.md)
+[More](docs/ValueObject.md)
 
 
 ## Aggregate  
 A collection of objects that are bound together by a root entity, otherwise known as an aggregate root.
 The aggregate root guarantees the consistency of changes being made within the aggregate by forbidding external objects from holding references to its members.
 The idea of an aggregate is to guarantee consistency, being the root responsible for data integrity and forcing invariants.
-[More](Aggregate.md)
+[More](docs/Aggregate.md)
 
 - [DDD_Aggregate by Martin Fowler](https://martinfowler.com/bliki/DDD_Aggregate.html)
 - [Doctrine ORM and DDD aggregates by Matthias Noback](https://matthiasnoback.nl/2018/06/doctrine-orm-and-ddd-aggregates/)
@@ -103,16 +103,16 @@ Services can be of three types:
     - Domain Services
     - Application Services
     - Infrastructure Services
-[More](Service.md)
+[More](docs/Service.md)
 
 
 ## Layer  
 Layered Architecture is the idea of isolation of each part based on years of experience and convention.
-[More](LayeredArchitecture.md)
+[More](docs/LayeredArchitecture.md)
 
 
 ## Anti-corruption layers  
-[More](AntiCorruptionLayer.md)
+[More](docs/AntiCorruptionLayer.md)
 
 
 ## Factories 
@@ -159,8 +159,8 @@ If your model is telling a story, the Modules are chapters.
 [DDD CQRS ADR PHP Symfony example](https://github.com/ferrius/ddd-cqrs-example) by Serge  
 [ddd-playground](https://github.com/jorge07/ddd-playground) by Jorge Arco  
 [php-ddd-cargo-sample](https://github.com/codeliner/php-ddd-cargo-sample) by Alexander Miertsch  
-[Symfony 5 DDD ES CQRS backend boilerplate.](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate) by Alexander Miertsch  
-
+[Symfony 5 DDD ES CQRS backend boilerplate](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate) by Alexander Miertsch  
+[symfony-ddd-example](https://github.com/salletti/symfony-ddd-example) by salletti
 
 
 ## Books  
