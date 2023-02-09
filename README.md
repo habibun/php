@@ -1,11 +1,11 @@
 # php
 PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &amp; Concepts
 
----
+
 ## [API][api]  
 - [Rest][rest]
 
----
+
 ## [Architecture][architecture]
 - [CQRS][cqrs]
 - [EventDriven][event-driven]
@@ -20,15 +20,15 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 - [ServiceOriented][service-oriented]
 - [ServiceLayer][service-layer]
 
----
+
 ## [Concept][concept]
 - [DDD][ddd]
 
----
+
 ## [Core Features][core]  
   - //todo
 
----
+
 ## [Design Patterns][design-pattern]
 - [Behavioral][behavioral]
 - [CommandBus][command-bus]
@@ -41,17 +41,14 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
 - [Structural][structural]
 
 
----
 ## [DesignPrinciple][design-principle]  
 -  //todo
 
 
----
 ## [DevelopmentTechnique][development-technique]  
 - //todo
 
 
----
 ## [Migration][migration] 
   - [Php56To70][Php56To70]
   - [Php70To71][Php70To71]
@@ -62,7 +59,6 @@ PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &am
   - [Php80To81][Php80To81]
 
 
----
 ## [Paradigm][paradigm]  
 - //todo 
 
