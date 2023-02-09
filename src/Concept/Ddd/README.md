@@ -1,3 +1,41 @@
+## Articles
+- [Discovering the Domain Architecture](https://www.microsoftpressstore.com/articles/article.aspx?p=2248811)
+- [The absolute beginner's guide to Domain Driven Design with Symfony](https://www.youtube.com/watch?v=pfMGgd_NDPc)
+- [DDD & REST - Domain Driven APIs for the Web  ](https://www.youtube.com/watch?v=1RgXgZcj5nM)
+  - [Download slides](http://gotocon.com/berlin-2015/presentation/DDD%20&%20REST%20-%20Domain%20Driven%20APIs%20for%20the%20Web)
+- [When and where to determine the ID of an entity](https://matthiasnoback.nl/2018/05/when-and-where-to-determine-the-id-of-an-entity/)
+- [The absolute beginner’s guide to DDD with Symfony](https://speakerdeck.com/nealio82/the-absolute-beginners-guide-to-ddd-with-symfony)
+- [Domain-driven-design](https://vaadin.com/blog/tag/domain-driven-design)
+- [My review of the book "DDD in PHP"](https://www.linkedin.com/pulse/my-review-book-ddd-php-roman-dykyi)
+- [Is it a DTO or a Value Object?](https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/) by Matthias Noback
+- [Money pattern](https://martinfowler.com/eaaCatalog/money.html) - [money php library](https://github.com/moneyphp/money)
+- [Data Mapper](https://www.martinfowler.com/eaaCatalog/dataMapper.html) by Martin Fowler
+- [What I learned from DDD. Basic concepts](https://latteandcode.medium.com/chapter-1-what-i-learned-from-ddd-basic-concepts-db887c397599) by Gerardo Fernández
+- 
+
+
+## Example applications
+[Hexagonal Architecture + DDD + CQRS in PHP using Symfony 6](https://github.com/CodelyTV/php-ddd-example) by CodelyTV  
+[Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf  
+[blog-cqrs](https://github.com/dddshelf/blog-cqrs) by DDD Shelf  
+[last-wishes-gamify](https://github.com/dddshelf/last-wishes-gamify) by DDD Shelf  
+[absolute-beginners-guide-to-ddd-with-symfony](https://github.com/nealio82/absolute-beginners-guide-to-ddd-with-symfony) by Neal Brooks  
+[DDD CQRS ADR PHP Symfony example](https://github.com/ferrius/ddd-cqrs-example) by Serge  
+[ddd-playground](https://github.com/jorge07/ddd-playground) by Jorge Arco  
+[php-ddd-cargo-sample](https://github.com/codeliner/php-ddd-cargo-sample) by Alexander Miertsch  
+[Symfony 5 DDD ES CQRS backend boilerplate](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate) by Alexander Miertsch  
+[symfony-ddd-example](https://github.com/salletti/symfony-ddd-example) by salletti
+
+
+## Testing
+- [Domain-Driven Design & Unit Tests](https://www.jamesmichaelhickey.com/ddd-unit-tests/)
+- [DDD & Testing Strategy](http://www.taimila.com/blog/ddd-and-testing-strategy/)
+
+
+## Books
+Domain-Driven Design in PHP By Carlos Buenosvinos , Christian Soronellas , Keyvan Akbary
+
+
 ## Domain Driven Design In A Nutshell ###  
 Domain-Driven Design (DDD), is an
 approach that helps us succeed in understanding and building software model designs. It
@@ -128,40 +166,3 @@ A Repository is basically a layer that sits between your project’s domain and 
 When you place some classes together in a Module, you are telling the next developer who looks at your design to think about them together.
 If your model is telling a story, the Modules are chapters.
 
-
-
-## Testing
-- [Domain-Driven Design & Unit Tests](https://www.jamesmichaelhickey.com/ddd-unit-tests/)
-- [DDD & Testing Strategy](http://www.taimila.com/blog/ddd-and-testing-strategy/)
-
-
-## Articles  
-- [Discovering the Domain Architecture](https://www.microsoftpressstore.com/articles/article.aspx?p=2248811)
-- [The absolute beginner's guide to Domain Driven Design with Symfony](https://www.youtube.com/watch?v=pfMGgd_NDPc)
-- [DDD & REST - Domain Driven APIs for the Web  ](https://www.youtube.com/watch?v=1RgXgZcj5nM)
-  - [Download slides](http://gotocon.com/berlin-2015/presentation/DDD%20&%20REST%20-%20Domain%20Driven%20APIs%20for%20the%20Web)
-- [When and where to determine the ID of an entity](https://matthiasnoback.nl/2018/05/when-and-where-to-determine-the-id-of-an-entity/)
-- [The absolute beginner’s guide to DDD with Symfony](https://speakerdeck.com/nealio82/the-absolute-beginners-guide-to-ddd-with-symfony)
-- [Domain-driven-design](https://vaadin.com/blog/tag/domain-driven-design)
-- [My review of the book "DDD in PHP"](https://www.linkedin.com/pulse/my-review-book-ddd-php-roman-dykyi)
-- [Is it a DTO or a Value Object? - Matthias Noback](https://matthiasnoback.nl/2022/09/is-it-a-dto-or-a-value-object/)
-- [Money pattern](https://martinfowler.com/eaaCatalog/money.html) - [money php library](https://github.com/moneyphp/money)
-- [Data Mapper](https://www.martinfowler.com/eaaCatalog/dataMapper.html) by Martin Fowler
-
-
-
-## Example applications  
-[Hexagonal Architecture + DDD + CQRS in PHP using Symfony 6](https://github.com/CodelyTV/php-ddd-example) by CodelyTV  
-[Last Wishes](https://github.com/dddshelf/last-wishes) by DDD Shelf  
-[blog-cqrs](https://github.com/dddshelf/blog-cqrs) by DDD Shelf  
-[last-wishes-gamify](https://github.com/dddshelf/last-wishes-gamify) by DDD Shelf  
-[absolute-beginners-guide-to-ddd-with-symfony](https://github.com/nealio82/absolute-beginners-guide-to-ddd-with-symfony) by Neal Brooks  
-[DDD CQRS ADR PHP Symfony example](https://github.com/ferrius/ddd-cqrs-example) by Serge  
-[ddd-playground](https://github.com/jorge07/ddd-playground) by Jorge Arco  
-[php-ddd-cargo-sample](https://github.com/codeliner/php-ddd-cargo-sample) by Alexander Miertsch  
-[Symfony 5 DDD ES CQRS backend boilerplate](https://github.com/jorge07/symfony-5-es-cqrs-boilerplate) by Alexander Miertsch  
-[symfony-ddd-example](https://github.com/salletti/symfony-ddd-example) by salletti
-
-
-## Books  
-Domain-Driven Design in PHP By Carlos Buenosvinos , Christian Soronellas , Keyvan Akbary
