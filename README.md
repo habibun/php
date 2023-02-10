@@ -48,21 +48,18 @@
 - //todo
 
 
-## [Migration][migration] 
-  - [Php56To70][Php56To70]
-  - [Php70To71][Php70To71]
-  - [Php71To72][Php71To72]
-  - [Php72To73][Php72To73]
-  - [Php73To74][Php73To74]
-  - [Php74To80][Php74To80]
-  - [Php80To81][Php80To81]
+## [Release][release] 
+  - [v7.0][v7.0]
+  - [v7.1][v7.1]
+  - [v7.2][v7.2]
+  - [v7.3][v7.3]
+  - [v7.4][v7.4]
+  - [v8.0][v8.0]
+  - [v8.1][v8.1]
 
 
 ## [Paradigm][paradigm]  
 - //todo 
-
-
-
 
 
 
@@ -74,7 +71,7 @@
 [design-pattern]: https://github.com/habibun/php/tree/main/src/DesignPattern
 [design-principle]: https://github.com/habibun/php/tree/main/src/DesignPrinciple
 [development-technique]: https://github.com/habibun/php/tree/main/src/DevelopmentTechnique
-[migration]: https://github.com/habibun/php/tree/main/src/Migration
+[release]: https://github.com/habibun/php/tree/main/src/Migration
 [paradigm]: https://github.com/habibun/php/tree/main/src/Paradigm
 [api]: https://github.com/habibun/php/tree/main/src/Api
 [rest]: https://github.com/habibun/php/tree/main/src/Api/Rest
@@ -111,11 +108,11 @@
 [structural]: https://github.com/habibun/php/tree/main/src/DesignPattern/Structural
 
 
-[//]: # (Migration)
-[Php56To70]: https://github.com/habibun/php/tree/main/src/Migration/Php56To70
-[Php70To71]: https://github.com/habibun/php/tree/main/src/Migration/Php70To71
-[Php71To72]: https://github.com/habibun/php/tree/main/src/Migration/Php71To72
-[Php72To73]: https://github.com/habibun/php/tree/main/src/Migration/Php72To73
-[Php73To74]: https://github.com/habibun/php/tree/main/src/Migration/Php73To74
-[Php74To80]: https://github.com/habibun/php/tree/main/src/Migration/Php74To80
-[Php80To81]: https://github.com/habibun/php/tree/main/src/Migration/Php80To81
+[//]: # (Release)
+[v7.0]: https://github.com/habibun/php/tree/main/src/Migration/Php56To70
+[v7.1]: https://github.com/habibun/php/tree/main/src/Migration/Php70To71
+[v7.2]: https://github.com/habibun/php/tree/main/src/Migration/Php71To72
+[v7.3]: https://github.com/habibun/php/tree/main/src/Migration/Php72To73
+[v7.4]: https://github.com/habibun/php/tree/main/src/Migration/Php73To74
+[v8.0]: https://github.com/habibun/php/tree/main/src/Migration/Php74To80
+[v8.1]: https://github.com/habibun/php/tree/main/src/Migration/Php80To81
