@@ -109,10 +109,10 @@
 
 
 [//]: # (Release)
-[v7.0]: https://github.com/habibun/php/tree/main/src/Migration/Php56To70
-[v7.1]: https://github.com/habibun/php/tree/main/src/Migration/Php70To71
-[v7.2]: https://github.com/habibun/php/tree/main/src/Migration/Php71To72
-[v7.3]: https://github.com/habibun/php/tree/main/src/Migration/Php72To73
-[v7.4]: https://github.com/habibun/php/tree/main/src/Migration/Php73To74
-[v8.0]: https://github.com/habibun/php/tree/main/src/Migration/Php74To80
-[v8.1]: https://github.com/habibun/php/tree/main/src/Migration/Php80To81
+[v7.0]: https://github.com/habibun/php/tree/main/src/Release/v70
+[v7.1]: https://github.com/habibun/php/tree/main/src/Release/v71
+[v7.2]: https://github.com/habibun/php/tree/main/src/Release/v72
+[v7.3]: https://github.com/habibun/php/tree/main/src/Release/v73
+[v7.4]: https://github.com/habibun/php/tree/main/src/Release/v74
+[v8.0]: https://github.com/habibun/php/tree/main/src/Release/v80
+[v8.1]: https://github.com/habibun/php/tree/main/src/Release/v81
