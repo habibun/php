@@ -112,11 +112,11 @@
 
 [//]: # (Core)
 [Attribute]: https://github.com/habibun/php/tree/main/src/Core/Attribute
-[Class]: https://github.com/habibun/php/tree/main/src/Core/Attribute
-[Function]: https://github.com/habibun/php/tree/main/src/Core/Attribute
-[Miscellaneous]: https://github.com/habibun/php/tree/main/src/Core/Attribute
-[Namespace]: https://github.com/habibun/php/tree/main/src/Core/Attribute
-[Trait]: https://github.com/habibun/php/tree/main/src/Core/Attribute
+[Class]: https://github.com/habibun/php/tree/main/src/Core/Class
+[Function]: https://github.com/habibun/php/tree/main/src/Core/Function
+[Miscellaneous]: https://github.com/habibun/php/tree/main/src/Core/Miscellaneous
+[Namespace]: https://github.com/habibun/php/tree/main/src/Core/Namespace
+[Trait]: https://github.com/habibun/php/tree/main/src/Core/Trait
 
 
 [//]: # (DesignPattern)
