@@ -160,5 +160,5 @@
 
 
 [//]: # (Paradigm)
-[TDD]: https://github.com/habibun/php/tree/main/src/Paradigm/Imperative
-[BDD]: https://github.com/habibun/php/tree/main/src/Paradigm/Declarative
+[Imperative]: https://github.com/habibun/php/tree/main/src/Paradigm/Imperative
+[Declarative]: https://github.com/habibun/php/tree/main/src/Paradigm/Declarative
