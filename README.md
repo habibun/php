@@ -24,8 +24,13 @@
 - [DDD][ddd]
 
 
-## [Core Features][core]  
-  - //todo
+## [Core][core]  
+  - [Class][Class]
+  - [Attribute][Attribute]
+  - [Function][Function]
+  - [Miscellaneous][Miscellaneous]
+  - [Namespace][Namespace]
+  - [Trait][Trait]
 
 
 ## [Design Patterns][design-pattern]
@@ -41,11 +46,21 @@
 
 
 ## [DesignPrinciple][design-principle]  
--  //todo
+- [CompositionOverInheritance][CompositionOverInheritance]  
+- [CQS][Cqs]  
+- [DRY][Dry]  
+- [HollywoodPrinciple][HollywoodPrinciple]  
+- [Ioc][Ioc]  
+- [KISS][Kiss]  
+- [LoD][Lod]  
+- [SOLID][Solid]  
+- [LOD][Lod]  
+- [YAGNI][Yagni]  
 
 
 ## [DevelopmentTechnique][development-technique]  
-- //todo
+- [TDD][Tdd]
+- [BDD][Bdd]
 
 
 ## [Release][release] 
@@ -59,9 +74,8 @@
 
 
 ## [Paradigm][paradigm]  
-- //todo 
-
-
+- [Imperative][Imperative]
+- [Declarative][Declarative]
 
 
 [//]: # (Links)
@@ -96,6 +110,15 @@
 [ddd]: https://github.com/habibun/php/tree/main/src/Concept/Ddd
 
 
+[//]: # (Core)
+[Attribute]: https://github.com/habibun/php/tree/main/src/Core/Attribute
+[Class]: https://github.com/habibun/php/tree/main/src/Core/Attribute
+[Function]: https://github.com/habibun/php/tree/main/src/Core/Attribute
+[Miscellaneous]: https://github.com/habibun/php/tree/main/src/Core/Attribute
+[Namespace]: https://github.com/habibun/php/tree/main/src/Core/Attribute
+[Trait]: https://github.com/habibun/php/tree/main/src/Core/Attribute
+
+
 [//]: # (DesignPattern)
 [behavioral]: https://github.com/habibun/php/tree/main/src/DesignPattern/Behavioral
 [command-bus]: https://github.com/habibun/php/tree/main/src/DesignPattern/CommandBus
@@ -108,6 +131,24 @@
 [structural]: https://github.com/habibun/php/tree/main/src/DesignPattern/Structural
 
 
+[//]: # (DesignPrinciple)
+[CompositionOverInheritance]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/CompositionOverInheritance
+[Cqs]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Cqs
+[Dry]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Dry
+[HollywoodPrinciple]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/HollywoodPrinciple
+[Ioc]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Ioc
+[Kiss]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Kiss
+[Lod]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Lod
+[Solid]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Solid
+[Lod]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Lod
+[Yagni]: https://github.com/habibun/php/tree/main/src/DesignPrinciple/Yagni
+
+
+[//]: # (DevelopmentTechnique)
+[TDD]: https://github.com/habibun/php/tree/main/src/DevelopmentTechnique/Tdd
+[BDD]: https://github.com/habibun/php/tree/main/src/DevelopmentTechnique/Bdd
+
+
 [//]: # (Release)
 [v7.0]: https://github.com/habibun/php/tree/main/src/Release/v7.0
 [v7.1]: https://github.com/habibun/php/tree/main/src/Release/v7.1
@@ -116,3 +157,8 @@
 [v7.4]: https://github.com/habibun/php/tree/main/src/Release/v7.4
 [v8.0]: https://github.com/habibun/php/tree/main/src/Release/v8.0
 [v8.1]: https://github.com/habibun/php/tree/main/src/Release/v8.1
+
+
+[//]: # (Paradigm)
+[TDD]: https://github.com/habibun/php/tree/main/src/Paradigm/Imperative
+[BDD]: https://github.com/habibun/php/tree/main/src/Paradigm/Declarative
