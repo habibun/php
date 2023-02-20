@@ -1,0 +1,1 @@
+SELECT *FROM persons WHERE last_name= 'Hansen' AND first_name = "ola";

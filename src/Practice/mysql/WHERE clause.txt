@@ -1,0 +1,10 @@
+The following operators can be used with the WHERE clause:
+Operator            Description
+=                   Equal
+!=                  Not equal
+>                   Greater than
+<                   Less than
+>=                  Greater than or equal
+<=                  Less than or equal
+BETWEEN             Between an inclusive range
+LIKE                Search for a pattern

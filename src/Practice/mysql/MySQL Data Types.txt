@@ -1,0 +1,35 @@
+Below is the different MySQL data types that can be used:
+
+Numeric Data Types:                 Description:
+int(size)                           (Hold integers only.
+smallint(size)                       The maximum number of digits can be specified in the size parameter)
+tinyint(size)
+mediumint(size)
+bigint(size)
+
+
+decimal(size,d)                     (Hold numbers with fractions.
+double(size,d)                       The maximum number of digits can be specified in the size parameter.
+float(size,d)                        The maximum number of digits to the right of the decimal is specified in the d parameter)
+
+
+
+Textual Data Types:                 Description
+char(size)                          Holds a fixed length string (can contain letters, numbers, and special characters). The fixed size is specified in parenthesis
+varchar(size)                       Holds a variable length string (can contain letters, numbers, and special characters). The maximum size is specified in parenthesis
+tinytext                            Holds a variable string with a maximum length of 255 characters
+text blob                           Holds a variable string with a maximum length of 65535 characters
+mediumtext mediumblob               Holds a variable string with a maximum length of 16777215 characters
+longtext longblob                   Holds a variable string with a maximum length of 4294967295 characters
+
+
+Date Data Types:                     Description
+date(yyyy-mm-dd)                    (Holds date and/or time)
+datetime(yyyy-mm-dd hh:mm:ss)
+timestamp(yyyymmddhhmmss)
+time(hh:mm:ss)
+
+
+Misc. Data Types:                   Description
+enum(value1,value2,ect)             ENUM is short for ENUMERATED list. Can store one of up to 65535 values listed within the ( ) brackets. If a value is inserted that is not in the list, a blank value will be inserted
+set                                 SET is similar to ENUM. However, SET can have up to 64 list items and can store more than one choice

@@ -1,0 +1,1 @@
+SELECT * FROM purchase_line WHERE price BETWEEN 1000 AND 2000;

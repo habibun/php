@@ -1,0 +1,1 @@
+SELECT * FROM purchase_line WHERE price IN (1000 , 5000);

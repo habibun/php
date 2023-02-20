@@ -1,0 +1,1 @@
+SELECT last_name FROM persons WHERE last_name= 'Hansen';

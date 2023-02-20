@@ -1,0 +1,1 @@
+SELECT first_name, last_name, address FROM persons ORDER BY first_name ASC, last_name DESC;

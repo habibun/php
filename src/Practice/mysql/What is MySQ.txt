@@ -1,0 +1,8 @@
+What is MySQL?
+MySQL is a database. A database defines a structure for storing information.
+
+In a database, there are tables. Just like HTML tables, database tables contain rows, columns, and cells.
+
+Databases are useful when storing information categorically.
+A company may have a database with the following tables:
+"Employees", "Products", "Customers" and "Orders".
