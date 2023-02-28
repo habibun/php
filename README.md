@@ -1,5 +1,5 @@
-# PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &amp; Concepts
-
+# ## About The Project
+PHP resources for learning and practicing - PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &amp; Concepts.
 
 ## [API][api]  
 - [Rest][rest]
@@ -77,11 +77,18 @@
 - [Imperative][Imperative]
 - [Declarative][Declarative]
 
+
 ## Package  
-- [nesbot/carbon - A simple PHP API extension for DateTime.](https://carbon.nesbot.com/)
+- [nesbot/carbon](https://carbon.nesbot.com/) - A simple PHP API extension for DateTime.
+
+
+## License
+Distributed under the MIT License. See **[LICENSE][license]** for more information.
+
 
 
 [//]: # (Links)
+[license]: https://github.com/habibun/php/blob/main/LICENSE
 [architecture]: https://github.com/habibun/php/tree/main/src/Architecture
 [concept]: https://github.com/habibun/php/tree/main/src/Concept
 [core]: https://github.com/habibun/php/tree/main/src/Core
