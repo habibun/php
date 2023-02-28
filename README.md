@@ -1,4 +1,4 @@
-# ## About The Project
+## About The Project
 PHP resources for learning and practicing - PHP Core Features &amp; Architectures &amp; Design Patterns &amp; Principles &amp; Concepts.
 
 ## [API][api]  
