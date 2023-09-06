@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Migration\Php80To81;
+namespace Php\Release\Php80To81;
 
 class SodiumXChaCha20
 {

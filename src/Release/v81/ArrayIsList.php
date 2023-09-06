@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Migration\Php80To81;
+namespace Php\Release\v81;
 
 class ArrayIsList
 {
