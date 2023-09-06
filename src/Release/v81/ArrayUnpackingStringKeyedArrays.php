@@ -17,4 +17,3 @@ class ArrayUnpackingStringKeyedArrays
 
 $result = new ArrayUnpackingStringKeyedArrays();
 $result->test();
-

@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Release\Php80To81;
+namespace Php\Release\v81;
 
 enum Status: int
 {
