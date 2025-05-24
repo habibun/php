@@ -1,7 +1,7 @@
 <?php
 //The SplObjectStorage class provides a map from objects to data or, by ignoring data, an object set.
 // This dual purpose can be useful in many cases involving the need to uniquely identify objects.
-namespace Php\Core\Miscellaneous;
+namespace Php\Core\Misc;
 
 
 // As an object set

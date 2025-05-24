@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Core\Miscellaneous;
+namespace Php\Core\Misc;
 
 $std = new \stdClass();
 $std->name = 'test';

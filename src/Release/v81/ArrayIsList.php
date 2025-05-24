@@ -28,5 +28,5 @@ class ArrayIsList
     }
 }
 
-$result = new ArrayIsList();
+$result = new ReadonlyClasses();
 $result->test();
