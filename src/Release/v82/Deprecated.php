@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Migration\Php82;
+namespace Php\Release\v82;
 
 /**
  * Dynamic Properties Deprecated
