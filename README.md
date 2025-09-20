@@ -80,10 +80,6 @@ PHP resources for learning and practicing - PHP Core Features &amp; Architecture
 - [Declarative][Declarative]
 
 
-## Package  
-- [nesbot/carbon](https://carbon.nesbot.com/) - A simple PHP API extension for DateTime.
-
-
 ## License
 Distributed under the MIT License. See **[LICENSE][license]** for more information.
 
