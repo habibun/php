@@ -158,15 +158,15 @@ Distributed under the MIT License. See **[LICENSE][license]** for more informati
 
 
 [//]: # (Release)
-[v7.0]: https://github.com/habibun/php/tree/main/src/Release/v7.0
-[v7.1]: https://github.com/habibun/php/tree/main/src/Release/v7.1
-[v7.2]: https://github.com/habibun/php/tree/main/src/Release/v7.2
-[v7.3]: https://github.com/habibun/php/tree/main/src/Release/v7.3
-[v7.4]: https://github.com/habibun/php/tree/main/src/Release/v7.4
-[v8.0]: https://github.com/habibun/php/tree/main/src/Release/v8.0
-[v8.1]: https://github.com/habibun/php/tree/main/src/Release/v8.1
-[v8.2]: https://github.com/habibun/php/tree/main/src/Release/v8.2
-[v8.3]: https://github.com/habibun/php/tree/main/src/Release/v8.3
+[v7.0]: https://github.com/habibun/php/tree/main/src/Release/v70
+[v7.1]: https://github.com/habibun/php/tree/main/src/Release/v71
+[v7.2]: https://github.com/habibun/php/tree/main/src/Release/v72
+[v7.3]: https://github.com/habibun/php/tree/main/src/Release/v73
+[v7.4]: https://github.com/habibun/php/tree/main/src/Release/v74
+[v8.0]: https://github.com/habibun/php/tree/main/src/Release/v80
+[v8.1]: https://github.com/habibun/php/tree/main/src/Release/v81
+[v8.2]: https://github.com/habibun/php/tree/main/src/Release/v82
+[v8.3]: https://github.com/habibun/php/tree/main/src/Release/v83
 
 
 [//]: # (Paradigm)
