@@ -165,6 +165,8 @@ Distributed under the MIT License. See **[LICENSE][license]** for more informati
 [v7.4]: https://github.com/habibun/php/tree/main/src/Release/v7.4
 [v8.0]: https://github.com/habibun/php/tree/main/src/Release/v8.0
 [v8.1]: https://github.com/habibun/php/tree/main/src/Release/v8.1
+[v8.2]: https://github.com/habibun/php/tree/main/src/Release/v8.2
+[v8.3]: https://github.com/habibun/php/tree/main/src/Release/v8.3
 
 
 [//]: # (Paradigm)
