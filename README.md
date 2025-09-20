@@ -71,6 +71,8 @@ PHP resources for learning and practicing - PHP Core Features &amp; Architecture
   - [v7.4][v7.4]
   - [v8.0][v8.0]
   - [v8.1][v8.1]
+  - [v8.2][v8.2]
+  - [v8.3][v8.3]
 
 
 ## [Paradigm][paradigm]  
