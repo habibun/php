@@ -73,6 +73,7 @@ PHP resources for learning and practicing - PHP Core Features &amp; Architecture
   - [v8.1][v8.1]
   - [v8.2][v8.2]
   - [v8.3][v8.3]
+  - [v8.4][v8.4]
 
 
 ## [Paradigm][paradigm]  
@@ -167,6 +168,7 @@ Distributed under the MIT License. See **[LICENSE][license]** for more informati
 [v8.1]: https://github.com/habibun/php/tree/main/src/Release/v81
 [v8.2]: https://github.com/habibun/php/tree/main/src/Release/v82
 [v8.3]: https://github.com/habibun/php/tree/main/src/Release/v83
+[v8.4]: https://github.com/habibun/php/tree/main/src/Release/v84
 
 
 [//]: # (Paradigm)
